@@ -1,0 +1,7 @@
+# application properties
+
+logging:
+  level:
+    root: INFO
+    com:
+      scurtis: INFO
