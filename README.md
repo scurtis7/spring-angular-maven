@@ -61,7 +61,17 @@ You will want to modify the following:
 
 Use the Spring Initializer to create the server project and enter details similar to below:
 
-![Screenshot 2023-04-16 at 2.15.53 PM.png](..%2F..%2F..%2F..%2FDesktop%2FScreenshot%202023-04-16%20at%202.15.53%20PM.png)
+- Project -> Maven
+- Language -> Java
+- Spring Boot -> 3.0.5
+- Artifact -> server
+- Packaging -> Jar
+- Java -> 17
+- Dependencies
+  - Lombok
+  - Spring Web
+
+Once you have made the selections above:
 
 - Click generate and save the zip file in the folder you created above.
 - Unzip the file and then delete the zip file
