@@ -19,6 +19,8 @@ client/dist
 client/node_modules
 client/node/
 client/package-lock.json
+client/.angular
+client/.vscode
 
 # profiling files
 chrome-profiler-events*.json
