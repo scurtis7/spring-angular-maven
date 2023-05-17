@@ -16,7 +16,7 @@ Let's get started.
 
 ## Create Root Project Folder
 
-Create your root project folder: `spring-angular-maven`
+Create your root project folder: `spring-angular-maven` (you can give it your own name)
 
 Next add a `pom.xml` and if you want to add a `README.md` file.
 
@@ -51,7 +51,7 @@ Your pom file should be similar to the following:
 </project>
 ```
 
-You will want to modify the following:
+You will want to modify the following in your pom file above:
 - Change the version of spring boot to the latest
 - Modify the artifactId to match your project name
 - Modify the name and description tags as well
@@ -59,7 +59,7 @@ You will want to modify the following:
 
 ## Create Spring Boot App (name it server)
 
-Use the Spring Initializer to create the server project and enter details similar to below:
+Use the Spring Initializer (https://start.spring.io) to create the server project and enter details similar to below:
 
 - Project -> Maven
 - Language -> Java
